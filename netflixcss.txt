@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(33, 28, 28);
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+.left {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 7px 3px;
+    padding: 3px 7px;
+    color: white;
+}
+
+ul li a:hover {
+    font-size: 1.6rem;
+}
+
+.nav1 li a {
+    text-decoration: none;
+    margin: 7px 0px;
+    padding: 3px 10px;
+    color: white;
+}
+
+.header-img img {
+    width: 140px;
+    height: 87px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+}
+
+#item1 img {
+    width: 46px;
+    height: 33px;
+    top: 20px;
+}
+
+#item3 img {
+    width: 46px;
+    height: 33px;
+    top: 20px;
+
+}
+
+#item4 img {
+    width: 46px;
+    height: 33px;
+    top: 20px;
+}
+
+.item img {
+    width: 250px;
+    height: 250px;
+}
+
+.movies li a {
+    padding: 4px 4px;
+    max-width: 3px 3px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 26px 28px;
+}
